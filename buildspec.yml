@@ -31,8 +31,6 @@ phases:
       #- sam package --s3-bucket $PACKAGE_BUCKET --output-template-file packaged.yaml
       sam package --s3-bucket accenturecloud --output-template-file packaged.yaml
 
-
-
 artifacts:
   discard-paths: yes
   files:
