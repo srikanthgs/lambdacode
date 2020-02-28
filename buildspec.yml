@@ -29,10 +29,10 @@ phases:
     commands:
       # Use Post-Build for notifications, git tags, upload artifacts to S3
       #- sam package --s3-bucket $PACKAGE_BUCKET --output-template-file packaged.yaml
-      sam package --s3-bucket accenturecloud --output-template-file packaged.yaml
+      sam package --s3-bucket accenturecloud --output-template-file template.yaml
 
 artifacts:
-  discard-paths: yes
+  type: zip
   files:
     # List of local artifacts that will be passed down the pipeline
-    - packaged.yaml
+    - template.yaml
