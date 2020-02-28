@@ -34,4 +34,4 @@ artifacts:
   discard-paths: yes
   files:
     # List of local artifacts that will be passed down the pipeline
-    - packaged.yaml
+    #- packaged.yaml
