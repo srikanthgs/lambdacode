@@ -12,12 +12,12 @@ phases:
       - sam --version
       # Installing project dependencies
       - cd hello_world
-      - npm install
+      #- npm install
 
   pre_build:
     commands:
       # Run tests, lint scripts or any other pre-build checks.
-      - npm run test
+      #- npm run test
 
   build:
     commands:
