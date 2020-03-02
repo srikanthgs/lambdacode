@@ -34,5 +34,5 @@ phases:
 artifacts:
   type: zip
   files:
-    # List of local artifacts that will be passed down the pipeline
-    - template.yaml
+    - template.yml
+    - outputtemplate.yml
