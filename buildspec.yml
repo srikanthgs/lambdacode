@@ -32,7 +32,7 @@ phases:
       #- sam package --s3-bucket accenturecloud --output-template-file outputtemplate.yml
       - sam package --s3-bucket accenturecloud --output-template-file outputtemplate.yml
       #- aws cloudformation package --template-file template.yml --s3-bucket accenturecloud --output-template-file outputtemplate.yml
-      #- sam package --s3-bucket accenturecloud --output-template-file template.yaml
+      #- sam package --s3-bucket accenturecloud --output-template-file template.yaml 
 
 artifacts:
   type: zip
